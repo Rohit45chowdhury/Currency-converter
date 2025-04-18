@@ -80,3 +80,13 @@
     font-size: 1.15rem;
     cursor: pointer;
   }
+
+  @media(max-width:500px){
+    .container {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      min-height: 4vh;
+      width: 35vh;
+    }
+  }
